@@ -1,4 +1,4 @@
-package Java.Leccion_2.CicloWhile;
+package Leccion_2.CicloWhile;
 
 public class EjercicioWhile01 {
 
