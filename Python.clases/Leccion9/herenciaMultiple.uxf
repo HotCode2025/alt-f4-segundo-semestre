@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram noteset_</help_text><element><id>UMLClass</id><coordinates><x>20</x><y>80</y><w>210</w><h>150</h></coordinates><panel_attributes>_FiguraGeometrica_
+--
+-alto
+-ancho
+--
++get_alto()
++set_alto(alto)
++get_ancho
++get_ancho(ancho)
++_str_()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>80</y><w>210</w><h>110</h></coordinates><panel_attributes>_Color_
+--
+-color
+--
++get_color()
++set_color(color)
++_str_()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>_Cuadrado_
+--
+-area()
++_str_()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>220</y><w>90</w><h>180</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;20;160</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>180</y><w>380</w><h>220</h></coordinates><panel_attributes>lt=&lt;.
+                               &lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>360;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>_Rectangulo_
+--
++area()
++_str_()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>180</y><w>100</w><h>220</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;30;200</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>220</y><w>410</w><h>180</h></coordinates><panel_attributes>lt=&lt;.&gt;
+             &lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;390;160</additional_attributes></element></diagram>
