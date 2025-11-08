@@ -1,0 +1,150 @@
+Sintaxis similares entre Java y JavaScript
+Operadores Simplificados/Compuestos
++=
+-=
+*=
+/=
+%=
+**=
+
+Operadores Aritmeticos
++
+-
+*
+/
+% //Residuo
+** //Exponente
+
+Operadores de Asignación 
+=
+(los Operadores simplificados también asignan)
+
+Operadores de Comparación (tipo Boolean)
+== (Revisa el valor sin importar el tipo)
+=== (Revisa el valor y el tipo también)
+
+Documentar
+// = Para una linea de comentarios
+/* */ = Para Multiples lineas de comentarios
+
+Secuencias de Escape
+\' = Mostrar una comilla simple dentro de una cadena en la salida de informacion
+\" = Mostrar doble comilla dentro de una cadena en la salida de informacion
+\\ = Barra invertida, o diagonal inversa, es para mostrar una back slash
+\n = salto de linea
+\r = Retorno
+\t = Tabulacion
+\b = Retroceso
+\f = Salto de pagina
+
+Operador de aumento (va sumando de uno en uno) 
+++
+Ej: let z = ++a; //PreIncremento
+Ej: a = a++; //PostIcremento
+
+Operador de Decremento (va restando de uno en uno)
+--
+Ej: let z = --a; //PreDecremento
+Ej: a = a--; //PostDecremento
+
+Operador Distinto o Diferente(tipo boolean)
+!=   Comprueba valores sin revisar el tipo   
+!==  Comprueba el valor y también el tipo
+
+Operadores Relacionales(Tipo Boolean)
+<
+>
+<=
+>=
+
+Control de flujo (condicionales, bucles)
+
+Palabra               Explicación
+
+if	    Inicia una condición: if (x > 5) { ... }
+else	    Se usa si el if es falso: else { ... }
+switch	    Otra forma de controlar condiciones múltiples
+case	    Se usa dentro de un switch
+default	    Caso por defecto en un switch
+for	    Inicia un bucle (ciclo) con contador: for (let i=0; i<10; i++)
+while	    Bucle que se repite mientras la condición sea verdadera
+do	    Igual que while, pero ejecuta al menos una vez
+break	    Sale de un bucle o switch
+continue    Salta a la siguiente iteración de un bucle
+
+Declaración de variables y tipos
+
+Palabra	             Explicación
+
+var	      Declara una variable (forma antigua)
+let*	      Declara una variable (forma moderna, recomendada)
+const	      Declara una constante (no puede cambiar su valor)
+typeof	      Devuelve el tipo de una variable: typeof x
+instanceof    Verifica si un objeto es de cierta clase: x instanceof Array
+new	      Crea una instancia (nuevo objeto o clase)
+void	      Expresa que una función no retorna nada
+null	      Representa ausencia de valor
+true / false  Valores booleanos
+
+Funciones y clases
+
+Palabra	             Explicación
+
+function	Declara una función
+return	        Devuelve un valor desde la función
+class*	        Declara una clase (programación orientada a objetos)
+extends*	Hereda de otra clase
+super*	        Llama al constructor de la clase padre
+this	        Hace referencia al objeto actual
+
+Manejo de errores
+
+Palabra	             Explicación
+
+try	      Bloque que intenta ejecutar código que puede fallar
+catch	      Captura un error que ocurrió en try
+throw	      Lanza un error
+finally	      Se ejecuta siempre después de try/catch, sea éxito o error
+
+Módulos (importación/exportación)
+
+Palabra	             Explicación
+
+import*	      Importa código de otro archivo o módulo
+export*	      Exporta código para que sea usado en otro archivo
+
+Control de concurrencia (async/await)
+
+Palabra	              Explicación
+
+await*	      Espera que se resuelva una promesa (debe estar dentro de una función async)
+async         (no en la lista pero relacionada)	Declara una función asincrónica
+yield	      Se usa en generadores (function*) para pausar/retomar ejecución
+
+Programación orientada a objetos (avanzado)
+
+Palabra	              Explicación
+
+interface	Definir una "interfaz" (JS no la usa directamente, pero está reservada por compatibilidad con TypeScript o Java)
+implements	Para implementar una interfaz
+enum*	        Define un conjunto de valores constantes
+package	        Para definir un paquete de código (más común en Java)
+private	        Campo privado de una clase
+protected	Campo protegido de una clase
+public	        Campo público de una clase
+
+Otras palabras reservadas (menos comunes en JS)
+Palabra	                Explicación
+
+abstract	Marca clases abstractas (solo en Java/TypeScript)
+volatile	Control de concurrencia (en Java)
+native	        Método nativo (Java)
+synchronized	Sincronización de hilos (Java)
+transient	Campo no serializable (Java)
+goto	        No se usa en JS (reservada para compatibilidad con otros lenguajes)
+debugger	Pausa la ejecución del código (debug)
+
+
+
+
+
